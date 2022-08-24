@@ -1,0 +1,10 @@
+version: '2'
+services:
+  web:
+    image: jekyll/jekyll
+    command: jekyll serve --port 8080 --livereload --livereload-port 4000
+    volumes:
+      - .:/srv/jekyll
+    ports:
+      - "8080:8080"
+      - "4000:4000"
