@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: mypost
 title:  "How to check MD5 hash of a file"
 date:   2017-04-11 09:35:00 +0100
 category: security

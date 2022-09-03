@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: mypost
 title:  "Cannot run Jekyll build as non-root user"
 date:   2016-07-06 02:05:00 +0100
 category: jekyll

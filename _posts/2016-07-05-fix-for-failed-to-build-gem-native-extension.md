@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: mypost
 title:  'Fix for ERROR: Failed to build gem native extension'
 date:   2016-07-05 02:16:00 +0100
 category: ruby

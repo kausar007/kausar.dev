@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: mypost
 title:  'Fix for error: no acceptable C compiler found in $PATH'
 date:   2016-07-05 02:51:00 +0100
 category: installation

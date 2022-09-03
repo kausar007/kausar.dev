@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: mypost
 title:  "Android Naming Scheme"
 date:   2016-07-06 00:48:00 +0100
 category: android
