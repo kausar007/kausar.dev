@@ -1,7 +1,7 @@
 ---
 title: Tools
 icon: fas fa-tools
-order: 4
+order: 5
 ---
 
 ### Logseq Page Export OPML to HTML
