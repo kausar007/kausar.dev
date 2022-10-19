@@ -2,6 +2,7 @@ version: '2'
 services:
   web:
     image: jekyll/jekyll
+    container_name: blog
     command: jekyll serve --port 8080 --livereload --livereload-port 4000
     volumes:
       - .:/srv/jekyll
