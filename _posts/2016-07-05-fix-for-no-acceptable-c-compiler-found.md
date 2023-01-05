@@ -1,9 +1,9 @@
 ---
-layout: mypost
-title:  'Fix for error: no acceptable C compiler found in $PATH'
-date:   2016-07-05 02:51:00 +0100
+layout:   mypost
+title:    'Fix for error: no acceptable C compiler found in $PATH'
+date:     '2016-07-05 02:51:00'
 category: installation
-tags: ruby centos error gem make
+tags:     ruby centos error gem make
 ---
 
 While installing Jekyll on a new CentOS machine I got this this error.

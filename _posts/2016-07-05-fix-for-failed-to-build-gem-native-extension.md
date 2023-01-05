@@ -1,9 +1,9 @@
 ---
-layout: mypost
-title:  'Fix for ERROR: Failed to build gem native extension'
-date:   2016-07-05 02:16:00 +0100
+layout:   mypost
+title:    'Fix for ERROR: Failed to build gem native extension'
+date:     '2016-07-05 02:16:00'
 category: ruby
-tags: ruby centos error gem gcc yum packages
+tags:     ruby centos error gem gcc yum packages
 ---
 
 I came across this error when I was installing Jekyll on a CentOS machine. If you are installing a Ruby gem (usually first one on new machine) and you get an error like:

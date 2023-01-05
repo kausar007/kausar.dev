@@ -1,9 +1,9 @@
 ---
-layout: mypost
-title:  "Android Naming Scheme"
-date:   2016-07-06 00:48:00 +0100
+layout:   mypost
+title:    Android Naming Scheme
+date:     '2016-07-06 00:48:00'
 category: android
-tags: ['android', 'naming conventions']
+tags:     ['android', 'naming conventions']
 ---
 
 I really like Android's confectionary-themed naming scheme. It's really sweet (pun intended 😉). And it also goes in alphabetical order. I guess the question is what happens when they reach Z.

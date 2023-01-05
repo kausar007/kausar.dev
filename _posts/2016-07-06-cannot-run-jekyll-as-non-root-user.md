@@ -1,9 +1,9 @@
 ---
-layout: mypost
-title:  "Cannot run Jekyll build as non-root user"
-date:   2016-07-06 02:05:00 +0100
+layout:   mypost
+title:    Cannot run Jekyll build as non-root user
+date:     '2016-07-06 02:05:00'
 category: jekyll
-tags: error jekyll permissions
+tags:     error jekyll permissions
 ---
 
 If you accidently run Jekyll `build` or `serve` as `root` user and now want to run it as any other user and get an error message like:
