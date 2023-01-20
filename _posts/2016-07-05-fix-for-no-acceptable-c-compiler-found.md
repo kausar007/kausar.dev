@@ -1,5 +1,5 @@
 ---
-layout:   mypost
+layout:   post
 title:    'Fix for error: no acceptable C compiler found in $PATH'
 date:     '2016-07-05 02:51:00'
 category: installation
@@ -8,7 +8,7 @@ tags:     ruby centos error gem make
 
 While installing Jekyll on a new CentOS machine I got this this error.
 
-```
+```console
 configure: error: in `/usr/lib/ruby/gems/1.8/gems/ffi-1.9.10/ext/ffi_c/libffi-x86_64-linux':
 configure: error: no acceptable C compiler found in $PATH
 See `config.log' for more details

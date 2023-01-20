@@ -1,5 +1,5 @@
 ---
-layout:   mypost
+layout:   post
 title:    Cannot run Jekyll build as non-root user
 date:     '2016-07-06 02:05:00'
 category: jekyll
@@ -8,7 +8,7 @@ tags:     error jekyll permissions
 
 If you accidently run Jekyll `build` or `serve` as `root` user and now want to run it as any other user and get an error message like:
 
-```
+```console
 [kausar@centos ~]$ jekyll build
 Configuration file: _config.yml
             Source: <omitted>

@@ -1,5 +1,5 @@
 ---
-layout:   mypost
+layout:   post
 title:    How to check SHA-256 checksum of files
 date:     '2023-01-05 12:35:00'
 category: security
@@ -10,7 +10,7 @@ A lot of websites provide pre-computed [SHA-256](https://en.wikipedia.org/wiki/S
 
 So how would we check SHA-256 checksum of a file? 
 
-Most unix-based operating systems include SHA-2 utilities in their distribution packages and Windows users can also use PowerShell function "Get-FileHash" to compute SHA-256 checksums.
+Most unix-based operating systems include SHA-2 utilities in their distribution packages and Windows users also use PowerShell function "Get-FileHash" to compute SHA-256 checksums.
 
 Let's look at some of these commands and examples of using them.
 

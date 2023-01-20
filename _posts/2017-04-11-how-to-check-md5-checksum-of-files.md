@@ -1,5 +1,5 @@
 ---
-layout:   mypost
+layout:   post
 title:    How to check MD5 checksum of files
 date:     '2017-04-11 09:35:00'
 category: security
@@ -17,7 +17,7 @@ Although a lot of websites still provide pre-computed MD5 digests for files that
 
 So how would we check MD5 checksum of a file? 
 
-Most unix-based operating systems include MD5 utilities in their distribution packages and Windows users can also use PowerShell function "Get-FileHash" to compute MD5 checksums.
+Most unix-based operating systems include MD5 utilities in their distribution packages and Windows users can use PowerShell function "Get-FileHash" to compute MD5 checksums.
 
 Let's look at some of these commands and examples of using them.
 
@@ -48,7 +48,7 @@ On MacOS we can use the following command to compute the MD5 checksum for the fi
 MD5 (KeePass-2.52.zip) = 5f0f4d702fbc9967e8063e231f561363
 ```
 
-If we need to use the command in a script where we need to save the output to a variable then we can use the `-q` flag which is for quiet. With this flag it only shows the md5 hash without any other information.
+If we need to use the command in a script where we need to save the output to a variable then we can use the `-q` flag which is for quiet. With this flag it only shows the MD5 hash without any other information.
 
 ```console
 [kausar@mac ~]$ md5 -q KeePass-2.52.zip
@@ -66,7 +66,7 @@ MD5(KeePass-2.52.zip)= 5f0f4d702fbc9967e8063e231f561363
 ## Windows
 On Windows we can either use `certUtil` or PowerShell function `Get-FileHash` to compute MD5 checksum for the file.
 
-In command prompt and powershell we can do:
+In command prompt and PowerShell we can do:
 
 ```console
 C:\Users\Kausar>certUtil -hashfile KeePass-2.52.zip MD5
