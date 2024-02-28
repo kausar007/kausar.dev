@@ -90,7 +90,7 @@ MD5             5F0F4D702FBC9967E8063E231F561363         C:\Users\Kausar\KeePass
 > The information below is outdated and kept only for archival purposes. Use the Windows methods above.
 {: .prompt-warning }
 
-On Windows we can use a free third-party software called WinMD5Free to compute checksums. It is available to download from [WinMD5.com](http://winmd5.com/). It is a portable software and doesn't need to be installed in order to use it. Once downloaded, extract the zip file and run WinMD5Free.exe.
+On Windows we can use a free third-party software called WinMD5Free to compute checksums. It is available to download from [WinMD5.com](https://winmd5.com/). It is a portable software and doesn't need to be installed in order to use it. Once downloaded, extract the zip file and run WinMD5Free.exe.
 Browse and select the file you want to compute MD5 checksum for. WinMD5Free will compute the MD5 hash and display it.
 
 We can also use WinMD5 to verify the checksums automatically same as we did on Linux using `md5sum -c`. In order to do this all we have to do is copy the checksum from website into textbox titled "Original file MD5 checksum value" and click on Verify.
